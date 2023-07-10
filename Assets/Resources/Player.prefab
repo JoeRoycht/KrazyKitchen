@@ -240,6 +240,7 @@ MonoBehaviour:
   walkSpeed: 4
   maxVelocityChange: 10
   sprintSpeed: 14
+  airControl: 0.5
   jumpHeight: 3
 --- !u!54 &8944216008869729445
 Rigidbody:
