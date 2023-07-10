@@ -128,6 +128,7 @@ GameObject:
   - component: {fileID: 6640826966258763320}
   - component: {fileID: 6071640851591803641}
   - component: {fileID: 4315380323710137284}
+  - component: {fileID: 7838283139171597846}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -238,6 +239,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSpeed: 4
   maxVelocityChange: 10
+  sprintSpeed: 14
+  jumpHeight: 3
 --- !u!54 &8944216008869729445
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -335,3 +338,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movement: {fileID: 5153497246091487823}
   camera: {fileID: 4134867154730446924}
+--- !u!135 &7838283139171597846
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5937749371056182719}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.42931396
+  m_Center: {x: 0.0380826, y: -0.65707356, z: 0}
